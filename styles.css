@@ -1,0 +1,146 @@
+:root {
+    --dark-bgcolor: #1f2937;
+    --main-textcolor: #f9faf8;
+    --second-bgtxtcolor: #e5e7eb;
+    --blue-color: #3882f6;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.header {
+    display: flex;
+    justify-content: space-around;
+    padding: 16px 0px;
+    background-color: var(--dark-bgcolor);
+
+}
+.coconut {
+    max-width: 58px;
+    min-height: 58px;
+}
+ul {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+li {
+    list-style-type: none;
+}
+li a {
+    color: var(--second-bgtxtcolor);
+    font-size: 18px;
+    text-decoration: none;
+}
+.section-1 {
+    background: var(--dark-bgcolor);
+    color: var(--main-textcolor);
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+    align-items: center;
+    gap: 50px;
+    flex-wrap: wrap;
+
+}
+.sec1-text {
+    flex-basis: 450px;
+}
+.sec1-text h2 {
+    font-size: 48px;
+    font-weight: bolder;
+    line-height: 125%;
+}
+.sec1-text h2, .sec1-text p {
+    padding-bottom: 20px;
+}
+.sec1-text p, .sec1-text button, .sec4-text p {
+    font-size: 18px;
+    color: var(--second-bgtxtcolor);
+}
+button {
+    background-color: var(--blue-color);
+    padding: 8px 40px;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+}
+.section-2 {
+    text-align: center;
+    padding: 100px;
+}
+.section-2 h2 {
+    font-size: 36px;
+    font-weight: bolder;
+    color: var(--dark-bgcolor)
+}
+.section-2 img {
+    object-fit: cover;
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+}
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    margin-top: 100px;
+    justify-content: center;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 250px;
+    align-items: center;
+    gap: 20px;
+}
+.section-3 {
+    background-color: var(--second-bgtxtcolor);
+    padding: 100px;
+}
+.section-3 h2 {
+    font-weight: 200;
+    font-style: italic;
+    font-size: 36px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.section-3 p {
+    color: var(--dark-bgcolor);
+    font-size: 30px;
+    text-align: right;
+}
+.section-4 {
+    padding: 75px 125px;
+    color:white;
+}
+.section-4 button {
+    color: white;
+    background-color: var(--blue-color);
+    border: 3px solid white;
+    max-width: 200px;
+    height: 50px;
+    padding: 0px 50px;
+}
+.final-card {
+    background-color: var(--blue-color);
+    padding: 50px 100px;
+    border-radius: 10px;
+    max-width: 1250px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 25px;
+}
+footer {
+    background-color: var(--dark-bgcolor);
+    height: 100px;
+    color: var(--main-textcolor);
+    font-weight: 200;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
